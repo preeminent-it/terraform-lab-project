@@ -1,5 +1,5 @@
 module "vault_config" {
-  source = "../terraform-vault-config"
+  source = "git@github.com:preeminent-it/terraform-vault-config.git?ref=main"
 
   name           = var.name
   domain_name    = var.domain_name
